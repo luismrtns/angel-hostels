@@ -188,8 +188,16 @@ body{
     margin-bottom: 1.5rem;
   }
 
+  .main-img{
+    flex: 0 0 25%;
+  }
+
   .main-img img{
     max-height: 282px;
+  }
+
+  .main-text{
+    flex-grow: 1;
   }
 }
 
