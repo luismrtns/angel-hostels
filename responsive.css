@@ -1,0 +1,114 @@
+:root{
+  --cor-1: #5D2973;
+  --cor-2: #222059;
+  --cor-3: #FFEE78;
+  --cor-4: #eaeaea;
+  --cor-5: #cecdcd;
+
+}
+
+/* md */
+@media screen and (min-width: 48em) {
+  .top_Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .top_Nav ul{
+    display: flex;
+  }
+
+  .top_Nav{
+    background-color: transparent;
+  }
+
+  .top_Nav a{
+    color: var(--cor-1);
+    border-bottom: 2px solid var(--cor-4);
+    border-radius: 5px;
+  }
+
+  .top_Nav a:hover{
+    color: var(--cor-4);
+    border-bottom: 2px solid var(--cor-3);
+  }
+
+  .top_Img{
+    margin-left: 1rem;
+  }
+
+  .heroBanner{
+    background-color: var(--cor-1);
+  }
+
+  .heroBanner i{
+    display: inline-block;
+    color: var(--cor-4);
+    font-size: 3.5em;
+    padding: 0 .5em;
+    cursor: pointer;
+
+    transition: all .2s;
+  }
+
+  .heroBanner i:hover{
+    color: var(--cor-3);
+  }
+
+  .hero-title{
+    color: var(--cor-4);
+  }
+
+  .hero-subtitle{
+    color: color-mix(in srgb, var(--cor-4), var(--cor-3) 50%);
+  }
+
+  .heroBanner a{
+    background-color: transparent;
+    color: var(--cor-3);
+    border: 2px solid;
+  }
+}
+
+/* md-lg */
+@media screen and (min-width: 56.25em) {
+  .heroBanner{
+    background-image: url(img/bg_topo_1198x670.jpg);
+    aspect-ratio: 1198 / 670;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .heroBanner .maxWidth{
+    width: 70%;
+  }
+}
+
+/* md-xl */
+@media screen and (min-width: 74em){
+  .heroBanner{
+    background-image: linear-gradient(transparent, var(--cor-1)), url(img/bg_topo_1600x1374.jpg);
+    background-blend-mode: soft-light;
+    background-position: center top;
+    background-color: var(--cor-1);
+    background-repeat: no-repeat;
+    max-height: 80vh;
+    width: 100%;
+  }
+
+  .heroBanner .maxWidth{
+    width: 50%;
+  }
+
+  .heroBanner i{
+    font-size: 5em;
+    text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.579);
+  }
+
+  .hero-title, .hero-subtitle{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.484);
+  }
+}

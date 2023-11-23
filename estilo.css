@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root{
+  --cor-1: #5D2973;
+  --cor-2: #222059;
+  --cor-3: #FFEE78;
+  --cor-4: #ffffff;
+  --cor-5: #cecdcd;
+}
+
+html{
+  font-size: 62.5%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.maxWidth{
+  max-width: 70.25em;
+  margin: auto;
+}
+
+body{
+  background-color: var(--cor-4);
+  font-size: 1.6rem;
+}
+
+.top_Header{
+  text-align: center;
+}
+
+.top_Nav{
+  background-color: var(--cor-1);
+}
+
+.top_Nav li{
+  list-style-type: none;
+}
+
+.top_Nav a{
+  display: block;
+  color: var(--cor-4);
+  padding: 1.5rem;
+  font-weight: 600;
+
+  transition: all .2s;
+}
+
+.top_Nav a:hover{
+  background-color: var(--cor-2);
+}
+
+.heroBanner{
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--cor-5);
+}
+
+.heroBanner i{
+  font-size: 4.5rem;
+  color: var(--cor-1);
+  display: none;
+}
+
+.hero-title{
+  color: var(--cor-1);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.5em;
+  border-left: 2px solid;
+  display: inline-block;
+}
+
+.hero-subtitle{
+  color: color-mix(in srgb, var(--cor-1), white 25%);
+  font-size: 1em;
+  line-height: 25px;
+}
+
+.heroBanner a{
+  background-color: var(--cor-3);
+  color: var(--cor-2);
+  padding: 1rem 3.5rem;
+  display: inline-block;
+  font-weight: 600;
+  border: 2px solid var(--cor-2);
+  border-radius: 5px;
+  margin-top: 2rem;
+
+  transition: all .2s;
+}
+
+.heroBanner a:hover{
+  background-color: var(--cor-2);
+  color: var(--cor-3);
+  border: 2px solid var(--cor-3);
+}
