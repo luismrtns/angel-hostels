@@ -102,3 +102,48 @@ body{
   color: var(--cor-3);
   border: 2px solid var(--cor-3);
 }
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.col{
+  flex: 1 0 auto;
+  width: 100%;
+}
+
+.col-sm-12{
+  width: 100%;
+}
+
+
+.middle-content{
+  background-color: var(--cor-5);
+  text-align: center;
+  padding: 2rem;
+}
+
+.middle-content a{
+  color: inherit;
+}
+
+.middle-content i{
+  color: var(--cor-1);
+  font-size: 2.5em;
+}
+
+.middle-title{
+  color: var(--cor-1);
+  text-transform: uppercase;
+  font-size: 1.25em;
+  margin: .5em 0;
+}
+
+.middle-content p{
+  line-height: 1.5;
+  margin-bottom: 1.5em;
+  width: 90%;
+  margin: auto;
+}
