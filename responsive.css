@@ -117,4 +117,8 @@
   .col-xl-3{
     width: calc(25% - 2rem);
   }
+
+  .col-xl-6{
+    width: calc(50% - 2rem);
+  }
 }
