@@ -197,7 +197,4 @@ footer{
 
 footer p:nth-of-type(2){
   color: var(--cor-3);
-  width: 60%;
-  margin: auto;
-  margin-top: .5em;
 }
