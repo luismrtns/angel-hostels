@@ -14,7 +14,6 @@
   --cor-2: #222059;
   --cor-3: #FFEE78;
   --cor-4: #ffffff;
-  --cor-5: #cecdcd;
 }
 
 html{
@@ -60,7 +59,7 @@ body{
 .heroBanner{
   text-align: center;
   padding: 2rem;
-  background-color: var(--cor-5);
+  background-color: var(--cor-4);
 }
 
 .heroBanner i{
@@ -120,7 +119,7 @@ body{
 
 
 .middle-content{
-  background-color: var(--cor-5);
+  background-color: var(--cor-4);
   text-align: center;
   padding: 2rem;
 }
